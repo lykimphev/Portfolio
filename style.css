@@ -990,6 +990,13 @@ img {
   z-index: 2001;
   padding: 35px;
   box-shadow: var(--shadow-lg);
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.modal-content::-webkit-scrollbar {
+  display: none;
 }
 
 .modal-close {
