@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ly Kimphev - Full-Stack Web Developer & Information Technology Student Portfolio.">
+  <title>Ly Kimphev Portfolio</title>
+  
+  <!-- Google Fonts: Space Grotesk & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Effects -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">LY KIMPHEV<span class="logo-dot">.DEV</span></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon icon-dark"></i>
+          <i class="fa-solid fa-sun icon-light"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Open Navigation Menu">
+          <i class="fa-solid fa-bars icon-bars"></i>
+          <i class="fa-solid fa-xmark icon-close"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="cyber-badge">
+            <span class="status-indicator"></span>
+            <span id="cambodiaTimeBadge">Phnom Penh (UTC+7)</span> &bull; IT Student @ BBU
+          </div>
+          
+          <h1 class="hero-title">
+            LY <span class="gradient-text">KIMPHEV</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            Full-Stack Web Developer & IT Student
+          </h2>
+          <p class="hero-description">
+            Motivated IT student specializing in full-stack web development with React.js, Node.js, Laravel, and PostgreSQL. Experienced in building REST APIs, database management, and modern web applications.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-cyber">
+              <span>EXPLORE PROJECTS</span>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+            <a href="#contact" class="btn btn-glass">
+              <span>GET IN TOUCH</span>
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="cyber-avatar-wrapper">
+            <div class="glowing-ring"></div>
+            <div class="glowing-ring ring-secondary"></div>
+            <div class="avatar-frame">
+              <img src="/images/Ly Kimphev.jpg" alt="Ly Kimphev" class="avatar-img">
+            </div>
+            
+            <div class="chip-tag chip-top">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <strong>BBU IT Student</strong>
+                <span>Year 2 (2024 - 2027)</span>
+              </div>
+            </div>
+            
+            <div class="chip-tag chip-bottom">
+              <i class="fa-solid fa-layer-group"></i>
+              <div>
+                <strong>Full-Stack Stack</strong>
+                <span>React, Node, Laravel, Postgres</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE SUMMARY SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header text-left">
+          <h2 class="section-title">Profile Summary</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <div class="card-header">
+              <i class="fa-solid fa-user-astronaut card-icon"></i>
+              <h3>ABOUT ME</h3>
+            </div>
+            <p>
+              I am a motivated Information Technology student specializing in full-stack web development with <strong>React.js, Node.js, Express.js, Laravel, and PostgreSQL</strong>.
+            </p>
+            <p>
+              I have hands-on experience building full-featured web applications, including e-commerce platforms with integrated REST APIs, MVC architecture, and database management. Eager to contribute clean code and technical solutions to impactful team projects.
+            </p>
+
+            <div class="pillars-grid">
+              <div class="pillar">
+                <i class="fa-solid fa-cubes-stacked"></i>
+                <div>
+                  <h4>Full-Stack Architecture</h4>
+                  <p>Frontend UIs connected to robust REST API backends.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <i class="fa-solid fa-code-merge"></i>
+                <div>
+                  <h4>Modern DevOps Tools</h4>
+                  <p>Git, GitHub, Docker, Vercel, Render & Clever Cloud.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-column">
+            <div class="cyber-stat-card">
+              <div class="stat-header">
+                <i class="fa-solid fa-university"></i>
+                <span class="stat-tag">DEGREE</span>
+              </div>
+              <h3 class="stat-value">BBU IT</h3>
+              <p class="stat-desc">Build Bright University (2024-2027)</p>
+            </div>
+
+            <div class="cyber-stat-card">
+              <div class="stat-header">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span class="stat-tag">STACK</span>
+              </div>
+              <h3 class="stat-value">Full-Stack</h3>
+              <p class="stat-desc">React, Node, Laravel, SQL</p>
+            </div>
+
+            <div class="cyber-stat-card">
+              <div class="stat-header">
+                <i class="fa-solid fa-server"></i>
+                <span class="stat-tag">DEVOPS</span>
+              </div>
+              <h3 class="stat-value">Docker</h3>
+              <p class="stat-desc">Render, Vercel & Clever Cloud</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & TRAINING SECTION -->
+    <section class="experience section" id="education">
+      <div class="container">
+        <div class="section-header text-left">
+          <h2 class="section-title">Education & Training</h2>
+        </div>
+
+        <div class="cyber-timeline">
+          <!-- Education Item 1 -->
+          <div class="timeline-block">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-period">2024 - 2027</span>
+                <span class="timeline-role">DEGREE</span>
+              </div>
+              <h3 class="timeline-company">Bachelor of Information Technology (IT)</h3>
+              <p style="color: var(--accent-emerald); font-weight: 600; margin-bottom: 8px;">Build Bright University (BBU)</p>
+              <p>
+                Pursuing a Bachelor's Degree in IT, studying software engineering, object-oriented programming, data structures, and database management systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education Item 2 -->
+          <div class="timeline-block">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-period">IN PROGRESS</span>
+                <span class="timeline-role">BOOTCAMP</span>
+              </div>
+              <h3 class="timeline-company">The Complete Full-Stack Web Development Bootcamp</h3>
+              <p style="color: var(--accent-cyan); font-weight: 600; margin-bottom: 8px;">Udemy (Instructor: Dr. Angela Yu)</p>
+              <p>
+                Comprehensive full-stack training covering HTML5, CSS3, JavaScript, Node.js, React.js, PostgreSQL, Web3, & DApps. Building real-world web applications and database capstone projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL & SOFT SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header text-left">
+          <h2 class="section-title">Technical & Soft Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Languages & Frontend -->
+          <div class="cyber-skill-card">
+            <div class="skill-card-top">
+              <i class="fa-solid fa-code"></i>
+              <h3>Languages & Frontend</h3>
+            </div>
+            
+            <div class="tech-meters">
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>JavaScript & TypeScript</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 50%;"></div></div>
+              </div>
+              
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>React.js & Vite</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 45%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Tailwind CSS & Bootstrap 5</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 50%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>HTML5, CSS3 & REST APIs</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 55%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend, DB & DevOps -->
+          <div class="cyber-skill-card">
+            <div class="skill-card-top">
+              <i class="fa-solid fa-server"></i>
+              <h3>Backend, DB & DevOps</h3>
+            </div>
+            
+            <div class="tech-meters">
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Laravel & PHP</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 45%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Node.js & Express.js</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 45%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>PostgreSQL & Oracle DB</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 45%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Docker, Git, Vercel & Render</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 50%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Soft Skills & Languages -->
+          <div class="cyber-skill-card">
+            <div class="skill-card-top">
+              <i class="fa-solid fa-user-check"></i>
+              <h3>Soft Skills & Spoken Languages</h3>
+            </div>
+            
+            <div class="tech-meters">
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Teamwork & Communication</span>
+                  <span>High</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 90%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Problem Solving & Adaptability</span>
+                  <span>High</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 90%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>Khmer (ខ្មែរ)</span>
+                  <span>Native</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 100%;"></div></div>
+              </div>
+
+              <div class="meter-item">
+                <div class="meter-labels">
+                  <span>English & Chinese</span>
+                  <span>Basic</span>
+                </div>
+                <div class="meter-bg"><div class="meter-fill" style="width: 50%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONAL PROJECTS SECTION -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header text-left">
+          <h2 class="section-title">Personal Projects</h2>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="cyber-filters">
+          <button class="cyber-filter-btn active" data-filter="all">All Projects</button>
+          <button class="cyber-filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="cyber-filter-btn" data-filter="web">Frontend</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="cyber-project-card" data-category="fullstack">
+            <div class="project-img-box">
+              <img src="/images/project_1.png" alt="Computer Store E-Commerce Website" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80'">
+              <div class="img-badge">FULL-STACK</div>
+              <div class="card-overlay">
+                <button class="btn btn-sm btn-cyber open-modal-btn" data-project="1">
+                  <i class="fa-solid fa-expand"></i> QUICK VIEW
+                </button>
+              </div>
+            </div>
+            
+            <div class="project-info">
+              <h3 class="project-name">1. Full-Stack Computer Store Website</h3>
+              <p class="project-summary">
+                Built a full-stack e-commerce platform for laptops and PC hardware featuring a dynamic React.js frontend, Laravel REST APIs, and PostgreSQL database.
+              </p>
+              
+              <div class="tech-tags">
+                <span>React.js</span>
+                <span>Laravel API</span>
+                <span>PostgreSQL</span>
+              </div>
+              
+              <div class="card-footer-links">
+                <a href="#projects" class="cyber-link open-modal-btn" data-project="1">
+                  DETAILS <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="cyber-link">
+                  CODE <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="cyber-project-card" data-category="web">
+            <div class="project-img-box">
+              <img src="/images/portfolio.png" alt="Personal Portfolio Website" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=80'">
+              <div class="img-badge">PORTFOLIO</div>
+              <div class="card-overlay">
+                <button class="btn btn-sm btn-cyber open-modal-btn" data-project="2">
+                  <i class="fa-solid fa-expand"></i> QUICK VIEW
+                </button>
+              </div>
+            </div>
+            
+            <div class="project-info">
+              <h3 class="project-name">2. Personal Portfolio Website</h3>
+              <p class="project-summary">
+                Designed a clean, responsive portfolio to showcase bio, education, skills, and personal projects using semantic HTML5, CSS3, and JavaScript.
+              </p>
+              
+              <div class="tech-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              
+              <div class="card-footer-links">
+                <a href="#projects" class="cyber-link open-modal-btn" data-project="2">
+                  DETAILS <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="cyber-link">
+                  CODE <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="cyber-project-card" data-category="fullstack">
+            <div class="project-img-box">
+              <img src="images/project-3.jpg" alt="Clothing Store POS & Inventory System" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80'">
+              <div class="img-badge">SYSTEM & POS</div>
+              <div class="card-overlay">
+                <button class="btn btn-sm btn-cyber open-modal-btn" data-project="3">
+                  <i class="fa-solid fa-expand"></i> QUICK VIEW
+                </button>
+              </div>
+            </div>
+            
+            <div class="project-info">
+              <h3 class="project-name">3. Clothing Store POS & Inventory System</h3>
+              <p class="project-summary">
+                Engineered point-of-sale (POS) terminal and inventory management application with real-time stock alerts, sales analytics, and database management.
+              </p>
+              
+              <div class="tech-tags">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+                <span>Tailwind CSS</span>
+              </div>
+              
+              <div class="card-footer-links">
+                <a href="#projects" class="cyber-link open-modal-btn" data-project="3">
+                  DETAILS <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="cyber-link">
+                  CODE <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Popup -->
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="modal-body" id="modalBody">
+          <!-- Loaded dynamically via java.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header text-left">
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+
+        <div class="contact-box">
+          <div class="contact-left">
+            <h3>Let's Work Together</h3>
+            <p>
+              Are you an HR recruiter, employer, or client looking to collaborate? Send a message directly to my email!
+            </p>
+
+            <div class="cyber-info-list">
+              <div class="cyber-info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <label>EMAIL</label>
+                  <a href="mailto:lykimphev@gmail.com" class="direct-email-link">lykimphev@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="cyber-info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <label>PHONE</label>
+                  <a href="tel:+855963012012">+855 963 012 012</a>
+                </div>
+              </div>
+
+              <div class="cyber-info-item" id="locationInfo">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <label>ADDRESS</label>
+                  <span>Toul Kork, Phnom Penh, Cambodia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form id="contactForm" class="cyber-form" action="https://formsubmit.co/lykimphev@gmail.com" method="POST">
+              <!-- FormSubmit Configuration -->
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New Portfolio Inquiry for Ly Kimphev">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="userName">YOUR NAME *</label>
+                  <input type="text" id="userName" name="Name" class="cyber-input" required>
+                  <span class="error-msg" id="nameError">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail">YOUR EMAIL *</label>
+                  <input type="email" id="userEmail" name="Email" class="cyber-input" required>
+                  <span class="error-msg" id="emailError">Please enter your email.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="userSubject">SUBJECT</label>
+                <input type="text" id="userSubject" name="Subject" class="cyber-input" placeholder="Job Opportunity / Project Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage">MESSAGE *</label>
+                <textarea id="userMessage" name="Message" class="cyber-input" rows="4" placeholder="Write your message here..." required></textarea>
+                <span class="error-msg" id="messageError">Please enter your message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-cyber btn-full">
+                <span>SEND MESSAGE</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span id="toastMsg">Sending message...</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-text">LY KIMPHEV<span class="logo-dot">.DEV</span></span>
+        </a>
+        <p>Full-Stack Web Developer & IT Student (BBU)</p>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2026 Ly Kimphev. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="java.js"></script>
+</body>
+</html>
