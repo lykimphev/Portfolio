@@ -6,24 +6,19 @@
   <meta name="description" content="Ly Kimphev - Full-Stack Web Developer & Information Technology Student Portfolio.">
   <title>Ly Kimphev Portfolio</title>
   
-  <!-- Google Fonts: Space Grotesk & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Background Ambient Glow Effects -->
   <div class="ambient-glow glow-1"></div>
   <div class="ambient-glow glow-2"></div>
 
-  <!-- NAVIGATION BAR -->
   <header class="navbar" id="navbar">
     <div class="container nav-container">
       <a href="#hero" class="logo">
@@ -31,7 +26,6 @@
         <span class="logo-text">LY KIMPHEV<span class="logo-dot">.DEV</span></span>
       </a>
 
-      <!-- Navigation Links -->
       <nav class="nav-menu" id="navMenu">
         <ul class="nav-list">
           <li><a href="#hero" class="nav-link active">Home</a></li>
@@ -44,13 +38,11 @@
       </nav>
 
       <div class="nav-actions">
-        <!-- Theme Toggle Button -->
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
           <i class="fa-solid fa-moon icon-dark"></i>
           <i class="fa-solid fa-sun icon-light"></i>
         </button>
 
-        <!-- Mobile Menu Toggle Button -->
         <button class="menu-toggle" id="menuToggle" aria-label="Open Navigation Menu">
           <i class="fa-solid fa-bars icon-bars"></i>
           <i class="fa-solid fa-xmark icon-close"></i>
@@ -60,7 +52,6 @@
   </header>
 
   <main>
-    <!-- HERO SECTION -->
     <section class="hero" id="hero">
       <div class="container hero-container">
         <div class="hero-content">
@@ -103,7 +94,7 @@
               <i class="fa-solid fa-graduation-cap"></i>
               <div>
                 <strong>BBU IT Student</strong>
-                <span>(2024 - 2027)</span>
+                <span>Year 2 (2024 - 2027)</span>
               </div>
             </div>
             
@@ -119,7 +110,6 @@
       </div>
     </section>
 
-    <!-- PROFILE SUMMARY SECTION -->
     <section class="about section" id="about">
       <div class="container">
         <div class="section-header text-left">
@@ -163,7 +153,7 @@
                 <i class="fa-solid fa-university"></i>
                 <span class="stat-tag">DEGREE</span>
               </div>
-              <h3 class="stat-value">Build Bright University</h3>
+              <h3 class="stat-value">BBU IT</h3>
               <p class="stat-desc">Build Bright University (2024-2027)</p>
             </div>
 
@@ -189,7 +179,6 @@
       </div>
     </section>
 
-    <!-- EDUCATION & TRAINING SECTION -->
     <section class="experience section" id="education">
       <div class="container">
         <div class="section-header text-left">
@@ -197,7 +186,6 @@
         </div>
 
         <div class="cyber-timeline">
-          <!-- Education Item 1 -->
           <div class="timeline-block">
             <div class="timeline-marker"></div>
             <div class="timeline-card">
@@ -213,7 +201,6 @@
             </div>
           </div>
 
-          <!-- Education Item 2 -->
           <div class="timeline-block">
             <div class="timeline-marker"></div>
             <div class="timeline-card">
@@ -232,7 +219,6 @@
       </div>
     </section>
 
-    <!-- TECHNICAL & SOFT SKILLS SECTION -->
     <section class="skills section" id="skills">
       <div class="container">
         <div class="section-header text-left">
@@ -240,7 +226,6 @@
         </div>
 
         <div class="skills-grid">
-          <!-- Category 1: Languages & Frontend -->
           <div class="cyber-skill-card">
             <div class="skill-card-top">
               <i class="fa-solid fa-code"></i>
@@ -282,7 +267,6 @@
             </div>
           </div>
 
-          <!-- Category 2: Backend, DB & DevOps -->
           <div class="cyber-skill-card">
             <div class="skill-card-top">
               <i class="fa-solid fa-server"></i>
@@ -324,7 +308,6 @@
             </div>
           </div>
 
-          <!-- Category 3: Soft Skills & Languages -->
           <div class="cyber-skill-card">
             <div class="skill-card-top">
               <i class="fa-solid fa-user-check"></i>
@@ -369,26 +352,22 @@
       </div>
     </section>
 
-    <!-- PERSONAL PROJECTS SECTION -->
     <section class="projects section" id="projects">
       <div class="container">
         <div class="section-header text-left">
           <h2 class="section-title">Personal Projects</h2>
         </div>
 
-        <!-- Filter Buttons -->
         <div class="cyber-filters">
           <button class="cyber-filter-btn active" data-filter="all">All Projects</button>
           <button class="cyber-filter-btn" data-filter="fullstack">Full-Stack</button>
           <button class="cyber-filter-btn" data-filter="web">Frontend</button>
         </div>
 
-        <!-- Projects Grid -->
         <div class="projects-grid">
-          <!-- Project 1 -->
           <article class="cyber-project-card" data-category="fullstack">
             <div class="project-img-box">
-              <img src="images/project_1.png" alt="Computer Store E-Commerce Website" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80'">
+              <img src="images/project-1.jpg" alt="Computer Store E-Commerce Website" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80'">
               <div class="img-badge">FULL-STACK</div>
               <div class="card-overlay">
                 <button class="btn btn-sm btn-cyber open-modal-btn" data-project="1">
@@ -420,10 +399,9 @@
             </div>
           </article>
 
-          <!-- Project 2 -->
           <article class="cyber-project-card" data-category="web">
             <div class="project-img-box">
-              <img src="images/portfolio.png" alt="Personal Portfolio Website" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=80'">
+              <img src="images/project-2.jpg" alt="Personal Portfolio Website" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop&q=80'">
               <div class="img-badge">PORTFOLIO</div>
               <div class="card-overlay">
                 <button class="btn btn-sm btn-cyber open-modal-btn" data-project="2">
@@ -455,7 +433,6 @@
             </div>
           </article>
 
-          <!-- Project 3 -->
           <article class="cyber-project-card" data-category="fullstack">
             <div class="project-img-box">
               <img src="images/project-3.jpg" alt="Clothing Store POS & Inventory System" class="project-img" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80'">
@@ -494,7 +471,6 @@
       </div>
     </section>
 
-    <!-- Modal Popup -->
     <div class="modal" id="projectModal" aria-hidden="true">
       <div class="modal-overlay" id="modalOverlay"></div>
       <div class="modal-content">
@@ -502,12 +478,10 @@
           <i class="fa-solid fa-xmark"></i>
         </button>
         <div class="modal-body" id="modalBody">
-          <!-- Loaded dynamically via java.js -->
         </div>
       </div>
     </div>
 
-    <!-- CONTACT SECTION -->
     <section class="contact section" id="contact">
       <div class="container">
         <div class="section-header text-left">
@@ -550,7 +524,6 @@
 
           <div class="contact-right">
             <form id="contactForm" class="cyber-form" action="https://formsubmit.co/lykimphev@gmail.com" method="POST">
-              <!-- FormSubmit Configuration -->
               <input type="hidden" name="_template" value="table">
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_subject" value="New Portfolio Inquiry for Ly Kimphev">
@@ -591,18 +564,15 @@
     </section>
   </main>
 
-  <!-- Toast Notification -->
   <div class="toast" id="toast">
     <i class="fa-solid fa-circle-check toast-icon"></i>
     <span id="toastMsg">Sending message...</span>
   </div>
 
-  <!-- Back to Top Button -->
   <button class="back-to-top" id="backToTop" aria-label="Back to top">
     <i class="fa-solid fa-chevron-up"></i>
   </button>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-content">
       <div class="footer-brand">
@@ -619,7 +589,6 @@
     </div>
   </footer>
 
-  <!-- Vanilla JavaScript -->
   <script src="java.js"></script>
 </body>
 </html>

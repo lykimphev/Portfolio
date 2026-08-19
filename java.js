@@ -1,13 +1,5 @@
-/* ==========================================================================
-   LY KIMPHEV PORTFOLIO JAVASCRIPT
-   Clean, easy-to-understand Vanilla JS with complete features.
-   ========================================================================== */
-
 document.addEventListener('DOMContentLoaded', () => {
   
-  /* ------------------------------------------------------------------------
-     1. THEME SWITCHER (DARK / LIGHT MODE)
-     ------------------------------------------------------------------------ */
   const themeToggleBtn = document.getElementById('themeToggle');
   const htmlElement = document.documentElement;
 
@@ -24,9 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ------------------------------------------------------------------------
-     2. MOBILE NAVIGATION MENU TOGGLE
-     ------------------------------------------------------------------------ */
   const menuToggleBtn = document.getElementById('menuToggle');
   const navMenu = document.getElementById('navMenu');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -45,9 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ------------------------------------------------------------------------
-     3. SCROLLSPY & BACK TO TOP BUTTON
-     ------------------------------------------------------------------------ */
   const sections = document.querySelectorAll('section[id]');
   const backToTopBtn = document.getElementById('backToTop');
 
@@ -86,9 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ------------------------------------------------------------------------
-     4. PROJECT CATEGORY FILTERING
-     ------------------------------------------------------------------------ */
   const filterBtns = document.querySelectorAll('.cyber-filter-btn, .filter-btn');
   const projectCards = document.querySelectorAll('.cyber-project-card, .project-card');
 
@@ -110,16 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* ------------------------------------------------------------------------
-     5. PROJECT MODAL (POPUP DETAILS FOR RESUME PROJECTS)
-     ------------------------------------------------------------------------ */
   const modal = document.getElementById('projectModal');
   const modalOverlay = document.getElementById('modalOverlay');
   const modalClose = document.getElementById('modalClose');
   const modalBody = document.getElementById('modalBody');
   const openModalBtns = document.querySelectorAll('.open-modal-btn');
 
-  // Exact Projects Data from Ly Kimphev's New CV
   const projectsData = {
     "1": {
       title: "1. Full-Stack Computer Store Website",
@@ -196,7 +175,6 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `;
 
-    // Attach click feedback action for Live Demo and View Code buttons
     const demoBtn = modalBody.querySelector('.modal-demo-btn');
     const codeBtn = modalBody.querySelector('.modal-code-btn');
 
@@ -240,9 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /* ------------------------------------------------------------------------
-     6. CONTACT FORM VALIDATION & FORMSUBMIT API HANDLER (lykimphev@gmail.com)
-     ------------------------------------------------------------------------ */
   const contactForm = document.getElementById('contactForm');
   const toast = document.getElementById('toast');
   const toastMsg = document.getElementById('toastMsg');
@@ -337,7 +312,6 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         })
         .catch(error => {
-          // Fallback to direct HTML form submission if AJAX fetch is restricted
           showToast("Submitting message to lykimphev@gmail.com...");
           contactForm.submit();
         });
@@ -345,9 +319,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ------------------------------------------------------------------------
-     7. LIVE CAMBODIA TIME CLOCK (Asia/Phnom_Penh - UTC+7 ICT)
-     ------------------------------------------------------------------------ */
   function updateCambodiaClock() {
     const timeBadge = document.getElementById('cambodiaTimeBadge');
     if (!timeBadge) return;
