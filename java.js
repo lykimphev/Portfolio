@@ -1,5 +1,8 @@
+/* 1. LY KIMPHEV PORTFOLIO JAVASCRIPT */
+
 document.addEventListener('DOMContentLoaded', () => {
   
+  /* 1. Theme Switcher */
   const themeToggleBtn = document.getElementById('themeToggle');
   const htmlElement = document.documentElement;
 
@@ -16,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* 2. Mobile Navigation Menu Toggle */
   const menuToggleBtn = document.getElementById('menuToggle');
   const navMenu = document.getElementById('navMenu');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -34,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* 3. Scrollspy & Back To Top Button */
   const sections = document.querySelectorAll('section[id]');
   const backToTopBtn = document.getElementById('backToTop');
 
@@ -72,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* 4. Project Category Filtering */
   const filterBtns = document.querySelectorAll('.cyber-filter-btn, .filter-btn');
   const projectCards = document.querySelectorAll('.cyber-project-card, .project-card');
 
@@ -93,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /* 5. Project Modal Details */
   const modal = document.getElementById('projectModal');
   const modalOverlay = document.getElementById('modalOverlay');
   const modalClose = document.getElementById('modalClose');
@@ -218,6 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  /* 6. Contact Form Validation & FormSubmit API */
   const contactForm = document.getElementById('contactForm');
   const toast = document.getElementById('toast');
   const toastMsg = document.getElementById('toastMsg');
@@ -319,6 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* 7. Live Cambodia Time Clock */
   function updateCambodiaClock() {
     const timeBadge = document.getElementById('cambodiaTimeBadge');
     if (!timeBadge) return;
