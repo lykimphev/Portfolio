@@ -151,6 +151,21 @@ document.addEventListener('DOMContentLoaded', () => {
       technologies: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS"],
       demoUrl: "https://github.com/lykimphev",
       githubUrl: "https://github.com/lykimphev"
+    },
+    "4": {
+      title: "4. Apartment Management System",
+      category: "Full-Stack Web App",
+      image: "images/project_4.jpg",
+      description: "Developed a full-featured apartment management system with tenant tracking, lease management, and maintenance request handling.",
+      features: [
+        "Designed a comprehensive apartment management solution for property owners.",
+        "Built a responsive web interface using React.js (TypeScript) and ASP.NET Core 8.",
+        "Integrated PostgreSQL database for efficient data storage and retrieval.",
+        "Implemented JWT & RBAC for secure user authentication and authorization."
+      ],
+      technologies: ["React.js (TypeScript)", "ASP.NET Core 8", "PostgreSQL", "Entity Framework Core", "JWT & RBAC"],
+      demoUrl: "https://github.com/lykimphev",
+      githubUrl: "https://github.com/lykimphev"
     }
   };
 
