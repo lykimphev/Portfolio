@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Designed clean, responsive portfolio to showcase bio, education, and projects.",
         "Built using semantic HTML5 tags and structured CSS styling.",
         "Integrated dark and light theme switcher with smooth local storage memory.",
-        "Integrated direct FormSubmit background email delivery API."
+        "Integrated direct FormSubmit background email delivery API." 
       ],
       technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       demoUrl: "index.html",
